@@ -296,6 +296,50 @@ a, a:hover, a:focus, a:active {
     padding: 20px;
 }
 
+.sixth {
+    color: #464660 !important;
+    background-color: whitesmoke !important;
+}
+
+.sixth h1 {
+    font-size: 2.5em !important;
+    padding: 20px;
+}
+
+.additionalservices {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.additionalservices h4 {
+    margin: 20px;
+    font-size: 2.2em;
+}
+
+.addtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.addimages {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.sixth img {
+    width: 200px;
+    height: auto;
+    margin: 30px;
+}
+
+.notaryimg {
+    display: none;
+}
+
 /* testimonials */
 
 .testimonals {
@@ -474,7 +518,23 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+    .notaryimg {
+        display: block;
+    }
+
+    .addimages {
+        display: none;
+    }
+
+    .addtext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
+
 
 @media (max-width: 1024px) {
 
@@ -534,6 +594,10 @@ footer {
     }
     
     .fifth h2{
+        font-size: 2em !important;
+    }
+
+    .sixth h1 {
         font-size: 2em !important;
     }
     
@@ -646,5 +710,19 @@ footer {
         margin-right: 0px;
     }
 
+    .addimages {
+        flex-direction: column;
+    }
 
+    .additionalservices {
+        flex-direction: column;
+    }
+
+    .sixth h1 {
+        font-size: 1.2em !important;
+    }
+
+    .addtext h4 {
+        font-size: 1.5em;
+    }
 }
